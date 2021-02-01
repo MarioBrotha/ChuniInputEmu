@@ -1,4 +1,4 @@
-package com.example.chunithmbuttons
+package com.example.ChuniInputEmu
 
 import org.junit.Test
 

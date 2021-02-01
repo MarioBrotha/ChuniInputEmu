@@ -1,13 +1,8 @@
-package com.example.chunithmbuttons;
+package com.example.ChuniInputEmu;
 
 import android.app.Service;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.AsyncTask;
 import android.os.IBinder;
-
-import androidx.annotation.Nullable;
-import androidx.preference.PreferenceManager;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

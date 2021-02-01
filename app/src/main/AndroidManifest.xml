@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chunithmbuttons">
+    package="com.example.ChuniInputEmu">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -15,15 +15,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SettingsActivity"
+        <activity android:name="com.example.ChuniInputEmu.SettingsActivity"
             android:label="Settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.ChuniInputEmu.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.example.ChuniInputEmu.MainActivity"/>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ChuniInputEmu.MainActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

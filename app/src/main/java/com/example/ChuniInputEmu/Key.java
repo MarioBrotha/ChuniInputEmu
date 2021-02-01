@@ -1,4 +1,4 @@
-package com.example.chunithmbuttons;
+package com.example.ChuniInputEmu;
 
 import android.graphics.RectF;
 
